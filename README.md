@@ -16,7 +16,7 @@ To create a Clip widget implement an instance of it in your activity as follows:
                                         _myDrawable,
                                         "Foo app")
 ```
-The appIcon and appName parameters can be set to null, but if provided wil be displayed during a keyed entered flow. 
+The appIcon and appName parameters can be set to null, but if provided will be displayed during a keyed entered flow. 
 
 You then need to set the color scheme (either dark or light), and add the widget to the view as a fragment. Possibly in your activity's onCreate():
 ```java
