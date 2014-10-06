@@ -45,7 +45,7 @@ To create a Clip widget implement an instance of it in your activity as follows:
                                         "your access token",
                                         "your users id",
                                         "user token",
-                                        "charge amount", (eg. "5.99")
+                                        "charge amount", // (eg. "5.99")
                                         _myDrawable,
                                         "Foo app")
 ```
