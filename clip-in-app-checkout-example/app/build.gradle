@@ -21,4 +21,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':clipcorepayments-1.0')
+    compile project(':clipoba-1.0')
+    compile project(':clipposlibrary-1.0')
+    compile project(':clipwalletlibrary-1.0')
+    compile project(':PayclipCommonLibrary-1.0')
+    compile project(':mpllibrary')
 }

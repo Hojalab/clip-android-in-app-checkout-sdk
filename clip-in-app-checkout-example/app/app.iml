@@ -79,6 +79,12 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 20 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="clipwalletlibrary-1.0" level="project" />
+    <orderEntry type="library" exported="" name="mpllibrary" level="project" />
+    <orderEntry type="library" exported="" name="PayclipCommonLibrary-1.0" level="project" />
+    <orderEntry type="library" exported="" name="clipcorepayments-1.0" level="project" />
+    <orderEntry type="library" exported="" name="clipposlibrary-1.0" level="project" />
+    <orderEntry type="library" exported="" name="clipoba-1.0" level="project" />
   </component>
 </module>
 

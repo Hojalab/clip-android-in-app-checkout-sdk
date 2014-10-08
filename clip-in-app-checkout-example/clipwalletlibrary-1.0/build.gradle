@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('clipwalletlibrary-1.0.aar'))

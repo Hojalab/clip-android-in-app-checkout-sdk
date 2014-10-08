@@ -8,7 +8,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PayclipCommonLibrary-1.0" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/clipcorepayments-1.0" />
+            <option value="$PROJECT_DIR$/clipoba-1.0" />
+            <option value="$PROJECT_DIR$/clipposlibrary-1.0" />
+            <option value="$PROJECT_DIR$/clipwalletlibrary-1.0" />
+            <option value="$PROJECT_DIR$/mpllibrary" />
           </set>
         </option>
       </GradleProjectSettings>
