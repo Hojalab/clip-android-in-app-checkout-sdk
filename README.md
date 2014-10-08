@@ -6,14 +6,15 @@ Clip's Android SDK Library to facilitate in-app checkout of good or services tha
 ## Overview
 
 * Import Libriaries
-  * Android Studio
+  * Manual Installation
+    * Android Studio
 * Android Manifest Permissions
 * Disable Screen Rotation
 * Setup Widget
 
 ## Procedure
 
-### Manual Instalation
+### Manual Installation
 
 Download `mpllibrary.aar`, `clipcorepayments-1.0.aar`, `clipoba-1.0.aar`, `clipposlibrary-1.0.aar`, `clipwalletlibrary-1.0.aar`, and `PayclipCommonLibrary-1.0.aar` into a local directory.
 
@@ -48,7 +49,7 @@ Add the following permissions to your app's AndroidManifest.xml:
 
 ### Disable Screen Rotation
 
-Because the Clip widget only works in portrait mode, add set the screen orientation to portrait for any activities in which you want to use a Clip widget. Add this to each activity in which you want to have a Clip widget in you app's AndroidManifest.xml:
+Because the Clip widget only works in portrait mode, set the screen orientation to portrait for any activities in which you want to use a Clip widget. Add this to each activity in which you want to have a Clip widget in you app's AndroidManifest.xml:
 
 ```xml
 <activity
