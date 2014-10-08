@@ -13,27 +13,26 @@ Clip's Android SDK Library to facilitate in-app checkout of good or services tha
 
 ## Procedure
 
-### Import Libraries
+### Manual Instalation
 
-Download `mpl-1.0.0.aar`, `clipcorepayments-1.0.aar`, `clipoba-1.0.aar`, `clipposlibrary-1.0.aar`, `clipwalletlibrary-1.0.aar`, and `PayclipCommonLibrary-1.0.aar` into a local directory.
-
-Add the following dependencies into your app's build.gradle:
-
-```
-dependencies {
-    compile 'com.payclip.clip:mpl:1.0'
-    compile 'com.payclip.clip:PayclipCommonLibrary:1.0'
-    compile 'com.payclip.clip:clipcorepayments:1.0'
-    compile 'com.payclip.clip:clipoba:1.0'
-    compile 'com.payclip.clip:clipposlibrary:1.0'
-    compile 'com.payclip.clip:clipwalletlibrary:1.0'
-}
-```
+Download `mpllibrary.aar`, `clipcorepayments-1.0.aar`, `clipoba-1.0.aar`, `clipposlibrary-1.0.aar`, `clipwalletlibrary-1.0.aar`, and `PayclipCommonLibrary-1.0.aar` into a local directory.
 
 #### Android Studio
 
 Create a new module for each .aar with File -> New Module -> Import .JAR or .AAR Package.
 
+Add the following dependencies into your app's build.gradle (they should match the generated library modules just created):
+
+```
+dependencies {
+    compile project(':clipcorepayments-1.0')
+    compile project(':clipoba-1.0')
+    compile project(':clipposlibrary-1.0')
+    compile project(':clipwalletlibrary-1.0')
+    compile project(':PayclipCommonLibrary-1.0')
+    compile project(':mpllibrary')
+}
+```
 ### Android Manifest Permissions
 
 Add the following permissions to your app's AndroidManifest.xml:
