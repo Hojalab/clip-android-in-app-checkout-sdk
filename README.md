@@ -17,6 +17,19 @@ Clip's Android SDK Library to facilitate in-app checkout of good or services tha
 
 Download `mpl-1.0.0.aar`, `clipcorepayments-1.0.aar`, `clipoba-1.0.aar`, `clipposlibrary-1.0.aar`, `clipwalletlibrary-1.0.aar`, and `PayclipCommonLibrary-1.0.aar` into a local directory.
 
+Add the following dependencies into your app's build.gradle:
+
+```
+dependencies {
+    compile 'com.payclip.clip:mpl:1.0'
+    compile 'com.payclip.clip:PayclipCommonLibrary:1.0'
+    compile 'com.payclip.clip:clipcorepayments:1.0'
+    compile 'com.payclip.clip:clipoba:1.0'
+    compile 'com.payclip.clip:clipposlibrary:1.0'
+    compile 'com.payclip.clip:clipwalletlibrary:1.0'
+}
+```
+
 #### Android Studio
 
 Create a new module for each .aar with File -> New Module -> Import .JAR or .AAR Package.
@@ -35,6 +48,15 @@ Add the following permissions to your app's AndroidManifest.xml:
 ```
 
 ### Disable Screen Rotation
+
+Because the Clip widget only works in portrait mode, add set the screen orientation to portrait for any activities in which you want to use a Clip widget. Add this to each activity in which you want to have a Clip widget in you app's AndroidManifest.xml:
+
+```xml
+<activity
+    ...
+    ...
+    android:screenOrientation="portrait">
+```
 
 ### Setup Widget
 
